@@ -6,6 +6,7 @@ This extension of the EMMO involves mainly the representation of museums and cul
 - [ ] Proposal
 - [X] accepted, under development
 - [ ] official 
+
 This domain ontology is a WIP, it is in the process of being accepted as a task group by the EMMC. 
 * Application submitted: 1 October 2020 
 * Application accepted on: TBD
