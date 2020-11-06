@@ -279,12 +279,6 @@ This type of sensors are participants on a mesurement process (observation) that
                 <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_863286f2_bdfb_436f_9add_c34f043f60ba"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_97141058_8351_48f1_9af9_1b0a3c144d25"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>An &apos;observation&apos; that is used to estimate the value of the property Temperature of an &apos;object&apos; (e.g.: room) using a Temperature sensor.</rdfs:comment>
         <skos:prefLabel xml:lang="en">TemperatureMeasurement</skos:prefLabel>
     </owl:Class>
@@ -467,6 +461,12 @@ This type of sensors are participants on a mesurement process (observation) - Hu
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_8b515824_61e0_489d_b039_6c02ec6b7c36">
         <owl:equivalentClass rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d9a31982_a4b6_440c_b1e7_9dc87859efb7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">SensorMeasurement</skos:prefLabel>
     </owl:Class>
     
@@ -505,7 +505,7 @@ This type of sensors are participants on a mesurement process (observation) - Hu
     <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_a3646a66_0ee3_40fc_8a61_d38a6c7ac4ab -->
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_a3646a66_0ee3_40fc_8a61_d38a6c7ac4ab">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_97141058_8351_48f1_9af9_1b0a3c144d25"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d9a31982_a4b6_440c_b1e7_9dc87859efb7"/>
         <skos:prefLabel xml:lang="en">Room</skos:prefLabel>
     </owl:Class>
     
@@ -543,12 +543,6 @@ This type of sensors are participants on a mesurement process (observation) - Hu
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
                 <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d8b09595_a569_41a5_8ccc_cea25c2597e2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_97141058_8351_48f1_9af9_1b0a3c144d25"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An &apos;observation&apos; that is used to estimate the value of the property Relative Humidity of an &apos;object&apos; (e.g.: room) using a Humidity sensor.</rdfs:comment>
@@ -641,9 +635,8 @@ This type of sensors are participants on a mesurement process (observation) - Te
     <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_eb8e561f_209a_4cf5_a537_f932b71150c0 -->
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_eb8e561f_209a_4cf5_a537_f932b71150c0">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_97141058_8351_48f1_9af9_1b0a3c144d25"/>
         <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
-        <skos:prefLabel xml:lang="en">Organization</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Institution</skos:prefLabel>
     </owl:Class>
     
 
