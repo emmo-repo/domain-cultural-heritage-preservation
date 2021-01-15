@@ -251,18 +251,6 @@ It is implemented as a formal language.</dcterms:abstract>
     
 
 
-    <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_1f8c046d_e0c4_43f4_ad05_2aed5d10baac -->
-
-    <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_1f8c046d_e0c4_43f4_ad05_2aed5d10baac">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_0e766551_2cee_4125_8dcb_024cdc14866b"/>
-        <rdfs:comment>VOC sensor is a device that  measures the concentration of CarbonDioxide (CO2).
-
-This type of sensors are participants on a mesurement process (observation) that has as result (output) the concentration of CO2 that is a property of the observed object (e.g: room).</rdfs:comment>
-        <skos:prefLabel xml:lang="en">CO2Sensor</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_20c1388e_d3d9_459a_9414_a4cbbf5811ec -->
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_20c1388e_d3d9_459a_9414_a4cbbf5811ec">
@@ -270,26 +258,17 @@ This type of sensors are participants on a mesurement process (observation) that
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_eac864de_57ca_4486_b799_55d770d2c280"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_863286f2_bdfb_436f_9add_c34f043f60ba"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_863286f2_bdfb_436f_9add_c34f043f60ba"/>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_eac864de_57ca_4486_b799_55d770d2c280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An &apos;observation&apos; that is used to estimate the value of the property Temperature of an &apos;object&apos; (e.g.: room) using a Temperature sensor.</rdfs:comment>
         <skos:prefLabel xml:lang="en">TemperatureMeasurement</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_2606867b_7305_4df4_b94a_650ebab0b304 -->
-
-    <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_2606867b_7305_4df4_b94a_650ebab0b304">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_a3646a66_0ee3_40fc_8a61_d38a6c7ac4ab"/>
-        <skos:prefLabel xml:lang="en">StorageRoom</skos:prefLabel>
     </owl:Class>
     
 
@@ -301,7 +280,13 @@ This type of sensors are participants on a mesurement process (observation) that
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_16f2fe60_2db7_43ca_8fee_5b3e416bfe87"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_3c1f9ac4_f077_4086_a442_8f3cfbf7d46b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_e1597073_2f4b_4aee_bfd6_e248393552c7"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An &apos;observation&apos; that is used to estimate the value of the property concentration of pollants (e.g.: CO2 concentration)  of an &apos;object&apos; (e.g.: room) using a sensor.</rdfs:comment>
@@ -315,18 +300,6 @@ This type of sensors are participants on a mesurement process (observation) that
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_33de5456_5fdd_40f4_947b_c537a492c1e2">
         <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d9a31982_a4b6_440c_b1e7_9dc87859efb7"/>
         <skos:prefLabel xml:lang="en">Box</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_37e8b4b3_84dd_44a0_935e_a250936e7133 -->
-
-    <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_37e8b4b3_84dd_44a0_935e_a250936e7133">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_0e766551_2cee_4125_8dcb_024cdc14866b"/>
-        <rdfs:comment>VOC sensor is a device that  measures the concentration of Volalile Organic Compounds.
-
-This type of sensors are participants on a mesurement process (observation) that has as result (output) the concentration of VOC that is a property of the observed object (e.g: room).</rdfs:comment>
-        <skos:prefLabel xml:lang="en">VOCSensor</skos:prefLabel>
     </owl:Class>
     
 
@@ -407,12 +380,6 @@ This type of sensors are participants on a mesurement process (observation) that
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_84e7a2a0_9f8d_47a3_9916_5a734149cd0d">
         <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_97141058_8351_48f1_9af9_1b0a3c144d25"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_2606867b_7305_4df4_b94a_650ebab0b304"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Storage</skos:prefLabel>
     </owl:Class>
     
@@ -464,7 +431,13 @@ This type of sensors are participants on a mesurement process (observation) - Hu
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d9a31982_a4b6_440c_b1e7_9dc87859efb7"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_0e766551_2cee_4125_8dcb_024cdc14866b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_9c2e9f0b_da88_4b8b_908b_049849fb2f00"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">SensorMeasurement</skos:prefLabel>
@@ -486,6 +459,12 @@ This type of sensors are participants on a mesurement process (observation) - Hu
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
                 <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_9380ab64_0363_4804_b13f_3a8a94119a76"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d9a31982_a4b6_440c_b1e7_9dc87859efb7"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Place</skos:prefLabel>
@@ -560,21 +539,6 @@ This type of sensors are participants on a mesurement process (observation) - Hu
     
 
 
-    <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d6c20865_d376_4a1e_b541_1240b93104a4 -->
-
-    <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d6c20865_d376_4a1e_b541_1240b93104a4">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_8b515824_61e0_489d_b039_6c02ec6b7c36"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_37e8b4b3_84dd_44a0_935e_a250936e7133"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">VOCConcentrationMeasurement</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d8b09595_a569_41a5_8ccc_cea25c2597e2 -->
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d8b09595_a569_41a5_8ccc_cea25c2597e2">
@@ -591,22 +555,7 @@ This type of sensors are participants on a mesurement process (observation) - Hu
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d9a31982_a4b6_440c_b1e7_9dc87859efb7">
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/top/physical#EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/top/mereotopology#EMMO_9380ab64_0363_4804_b13f_3a8a94119a76"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_0e766551_2cee_4125_8dcb_024cdc14866b"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Container</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_dd2537d2_e7af_409a_badf_4114f6ea3525 -->
-
-    <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_dd2537d2_e7af_409a_badf_4114f6ea3525">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_a3646a66_0ee3_40fc_8a61_d38a6c7ac4ab"/>
-        <skos:prefLabel xml:lang="en">ExhibitionRoom</skos:prefLabel>
     </owl:Class>
     
 
@@ -635,6 +584,7 @@ This type of sensors are participants on a mesurement process (observation) - Te
     <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_eb8e561f_209a_4cf5_a537_f932b71150c0 -->
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_eb8e561f_209a_4cf5_a537_f932b71150c0">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/top/physical#EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d"/>
         <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
         <skos:prefLabel xml:lang="en">Institution</skos:prefLabel>
     </owl:Class>
@@ -654,28 +604,7 @@ This type of sensors are participants on a mesurement process (observation) - Te
 
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_f3204cc2_9fde_45bb_aa21_b4b698da9166">
         <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_97141058_8351_48f1_9af9_1b0a3c144d25"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_dd2537d2_e7af_409a_badf_4114f6ea3525"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Exhibition</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_f4e06f52_d71e_41ea_8939_a4faee21d684 -->
-
-    <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_f4e06f52_d71e_41ea_8939_a4faee21d684">
-        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_2f81051d_6735_41d9_bcbd_6fb1eeabc68d"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
-                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_1f8c046d_e0c4_43f4_ad05_2aed5d10baac"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">CO2ConcentrationMeasurement</skos:prefLabel>
     </owl:Class>
     
 
@@ -685,6 +614,256 @@ This type of sensors are participants on a mesurement process (observation) - Te
     <owl:Class rdf:about="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_f62d50cb_d1df_46b1_9b63_25d6ca250010">
         <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_7124da1a_e533_468c_a60c_28386c1837a0"/>
         <skos:prefLabel xml:lang="en">LargePlexiglassDisplayCase</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_0cfb898a_c925_4973_a346_49463ba53b7e -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_0cfb898a_c925_4973_a346_49463ba53b7e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_79f0a4b7_5557_4c8d_8b40_6e58dc5ffaa2"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/physicalistic#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
+        <skos:prefLabel xml:lang="en">Pollutant</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_26003d02_cd4e_44fc_8150_c3ea1711f0ef -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_26003d02_cd4e_44fc_8150_c3ea1711f0ef">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_0cfb898a_c925_4973_a346_49463ba53b7e"/>
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_04f2a2d5_e799_4692_a654_420e76f5acc1"/>
+        <skos:prefLabel xml:lang="en">GaseousPollutants</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_27f005e9_f1d3_4e44_b7af_a706be4b960f -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_27f005e9_f1d3_4e44_b7af_a706be4b960f">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_d4f7d378_5e3b_468a_baa1_a7e98358cda7"/>
+        <skos:prefLabel xml:lang="en">Durability</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_3c1f9ac4_f077_4086_a442_8f3cfbf7d46b -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_3c1f9ac4_f077_4086_a442_8f3cfbf7d46b">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_0e766551_2cee_4125_8dcb_024cdc14866b"/>
+        <skos:prefLabel xml:lang="en">PollutantSensor</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_4ffb1ddd_7cc0_4c92_a0ee_7cc6d0ce3c79 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_4ffb1ddd_7cc0_4c92_a0ee_7cc6d0ce3c79">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_79f0a4b7_5557_4c8d_8b40_6e58dc5ffaa2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">CulturalHeritageDegradation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_666f66bd_4830_4f19_b308_1585bd24029d -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_666f66bd_4830_4f19_b308_1585bd24029d">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"/>
+        <skos:prefLabel xml:lang="en">CulturalHeritage</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_6b0ba09c_4989_482f_b7e5_f83e63f52dfd -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_6b0ba09c_4989_482f_b7e5_f83e63f52dfd">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_79f0a4b7_5557_4c8d_8b40_6e58dc5ffaa2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_d8b09595_a569_41a5_8ccc_cea25c2597e2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">IncorrectRelativeHumidity</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_715580bd_011b_40a2_b73e_ff567fb3a7b3 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_715580bd_011b_40a2_b73e_ff567fb3a7b3">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_eb00a89b_61e4_4670_80a8_b156034a10bb"/>
+        <skos:prefLabel xml:lang="en">ChemicalSpecies</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_79f0a4b7_5557_4c8d_8b40_6e58dc5ffaa2 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_79f0a4b7_5557_4c8d_8b40_6e58dc5ffaa2">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_666f66bd_4830_4f19_b308_1585bd24029d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/holistic#EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_4ffb1ddd_7cc0_4c92_a0ee_7cc6d0ce3c79"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">AgentOfDeterioration</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_9c2e9f0b_da88_4b8b_908b_049849fb2f00 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_9c2e9f0b_da88_4b8b_908b_049849fb2f00">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_5be9c137_325a_43d8_b7cd_ea93e7721c2d"/>
+        <skos:prefLabel xml:lang="en">AirMediumInsideContainer</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_aa5a0a5b_e17c_4dd4_b91c_3fc24b36d619 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_aa5a0a5b_e17c_4dd4_b91c_3fc24b36d619">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"/>
+        <skos:prefLabel xml:lang="en">ChemicalComposition</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_b99d4284_6e54_429c_9eac_89b8003473dd -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_b99d4284_6e54_429c_9eac_89b8003473dd">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_26003d02_cd4e_44fc_8150_c3ea1711f0ef"/>
+        <skos:prefLabel xml:lang="en">VolatileOrganicCompounds</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_ca32b46c_13e7_40cb_beb3_7db3955c1ae5 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_ca32b46c_13e7_40cb_beb3_7db3955c1ae5">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_aa5a0a5b_e17c_4dd4_b91c_3fc24b36d619"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_d490611d_59b4_4671_ac44_04a89ae583be"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_e1597073_2f4b_4aee_bfd6_e248393552c7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">PollutantComposition</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_cca76069_6c89_4a3d_9b25_739e56370e5e -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_cca76069_6c89_4a3d_9b25_739e56370e5e">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_26003d02_cd4e_44fc_8150_c3ea1711f0ef"/>
+        <skos:prefLabel xml:lang="en">CarbonDioxide</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_d490611d_59b4_4671_ac44_04a89ae583be -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_d490611d_59b4_4671_ac44_04a89ae583be">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_715580bd_011b_40a2_b73e_ff567fb3a7b3"/>
+        <skos:prefLabel xml:lang="en">PollutantChemicalSpecies</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_da88dbea_5a80_4f13_9958_c50c540a8244 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_da88dbea_5a80_4f13_9958_c50c540a8244">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_faab3f84_e475_4a46_af9c_7d249f0b9aef"/>
+        <skos:prefLabel xml:lang="en">Effectiveness</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_e1597073_2f4b_4aee_bfd6_e248393552c7 -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_e1597073_2f4b_4aee_bfd6_e248393552c7">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_16f2fe60_2db7_43ca_8fee_5b3e416bfe87"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_ca32b46c_13e7_40cb_beb3_7db3955c1ae5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">PollutantMassConcentration</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_eb00a89b_61e4_4670_80a8_b156034a10bb -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_eb00a89b_61e4_4670_80a8_b156034a10bb">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"/>
+        <skos:prefLabel xml:lang="en">Chemical</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_f07b1320_5666_4f1f_8bc5_a74d98ddfd7b -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_f07b1320_5666_4f1f_8bc5_a74d98ddfd7b">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_79f0a4b7_5557_4c8d_8b40_6e58dc5ffaa2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/cultural-heritage-preservation/cultural-heritage-preservation#EMMO_863286f2_bdfb_436f_9add_c34f043f60ba"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">IncorrectTemperature</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://emmo.info/emmo#EMMO_f5ed2fe8_e5a8_464e_97a8_5756202604cf -->
+
+    <owl:Class rdf:about="http://emmo.info/emmo#EMMO_f5ed2fe8_e5a8_464e_97a8_5756202604cf">
+        <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_666f66bd_4830_4f19_b308_1585bd24029d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_27f005e9_f1d3_4e44_b7af_a706be4b960f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo#EMMO_da88dbea_5a80_4f13_9958_c50c540a8244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/physicalistic#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <skos:prefLabel xml:lang="en">PreventiveMeasure</skos:prefLabel>
     </owl:Class>
     
 
