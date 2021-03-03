@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
   <group id="Folder Repository, directory=, recursive=true, Auto-Update=false, version=2" prefer="public" xml:base="">
-    <uri name="http://emmo.info/cultural-heritage-preservation/0.0.1/cultural-heritage-preservation"             uri="./cultural-heritage-preservation.owl"/>
+    <uri name="http://emmo.info/emmo/domain/cultural-heritage-preservation/0.0.1"             uri="./cultural-heritage-preservation.owl"/>
+    <uri name="http://emmo.info/emmo/1.0.0-beta/middle/chemistry"             uri="./chemistry.owl"/>
   </group>
 </catalog>
