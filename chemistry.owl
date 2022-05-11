@@ -10,14 +10,14 @@
     <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-beta/middle"/>
   </owl:Ontology>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/isq#EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_04b3300c_98bd_42dc_a3b5_e6c29d69f1ac">
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb"/>
   </rdf:Description>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_0eabfde6_c6c5_4b1f_bf10_e4e0e06e9b2e">
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
         <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_172e2c96_180b_40f8_a3e7_b624471f40c2"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -37,21 +37,21 @@
     <skos:prefLabel xml:lang="en">IUPACName</skos:prefLabel>
   </owl:Class>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/isq#EMMO_16f2fe60_2db7_43ca_8fee_5b3e416bfe87">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_16f2fe60_2db7_43ca_8fee_5b3e416bfe87">
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb"/>
   </rdf:Description>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_172e2c96_180b_40f8_a3e7_b624471f40c2">
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
         <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb"/>
       </owl:Restriction>
     </rdfs:subClassOf>
 
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
         <owl:someValuesFrom>
           <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_cbcf8fe6_6da6_49e0_ab4d_00f737ea9689">
             <owl:equivalentClass>
@@ -79,13 +79,9 @@
             </owl:equivalentClass>
 
             <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e"/>
-            <ns0:elucidation>Specific form of an element defined as to isotopic composition, electronic or oxidation state, and/or complex or molecular structure.
-
-Chemical species is the macroscopic equivalent of molecular entity and refers to sets or ensembles of molecular entities.</ns0:elucidation>
+            <ns0:elucidation>Specific form of an element defined as to isotopic composition, electronic or oxidation state, and/or complex or molecular structure. Chemical species is the macroscopic equivalent of molecular entity and refers to sets or ensembles of molecular entities.</ns0:elucidation>
             <ns0:iupacDoi>https://doi.org/10.1351/goldbook.CT06859</ns0:iupacDoi>
-            <rdfs:comment>Following nominalistic approach a species is simply a name that can point to an element name, a chemical formula or a chemical compound.
-
-So everything addressed by these classes of names can be calleded a chemical species.</rdfs:comment>
+            <rdfs:comment>Following nominalistic approach a species is simply a name that can point to an element name, a chemical formula or a chemical compound. So everything addressed by these classes of names can be calleded a chemical species.</rdfs:comment>
             <rdfs:comment>N2
 Methane
 CH4
@@ -101,7 +97,7 @@ Sodium Chloride</rdfs:comment>
     <skos:prefLabel xml:lang="en">SingleComponentComposition</skos:prefLabel>
   </owl:Class>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/materials#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a">
     <ns0:example>Hydrogen molecule is an adequate definition of a certain molecular entity for some purposes, whereas for others it is necessary to distinguish the electronic state and/or vibrational state and/or nuclear spin, etc. of the hydrogen molecule.</ns0:example>
     <ns0:example>Methane, may mean a single molecule of CH4 (molecular entity) or a molar amount, specified or not (chemical species), participating in a reaction. The degree of precision necessary to describe a molecular entity depends on the context.</ns0:example>
     <rdfs:comment>Molecular entity is used as a general term for singular entities, irrespective of their nature, while chemical species stands for sets or ensembles of molecular entities.
@@ -109,12 +105,12 @@ Sodium Chloride</rdfs:comment>
 Note that the name of a compound may refer to the respective molecular entity or to the chemical species,</rdfs:comment>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/materials#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71">
     <owl:disjointUnionOf>
       <rdf:Description>
         <rdf:first>
           <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_50967f46_51f9_462a_b1e4_e63365b4a184">
-            <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71"/>
+            <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71"/>
             <skos:prefLabel xml:lang="en">Heteronuclear</skos:prefLabel>
           </owl:Class>
         </rdf:first>
@@ -123,7 +119,7 @@ Note that the name of a compound may refer to the respective molecular entity or
           <rdf:Description>
             <rdf:first>
               <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_e024544d_e374_45b7_9340_1982040bc6b7">
-                <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71"/>
+                <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71"/>
                 <skos:altLabel>ElementalMolecule</skos:altLabel>
                 <skos:prefLabel xml:lang="en">Homonuclear</skos:prefLabel>
               </owl:Class>
@@ -142,7 +138,7 @@ Note that the name of a compound may refer to the respective molecular entity or
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_9236d0aa_cb39_43a1_bbdd_6a2a714951c8"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
         <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -161,10 +157,10 @@ Note that the name of a compound may refer to the respective molecular entity or
   </owl:Class>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_47338839_6cca_4a8e_b565_3c4d5517e2c0">
-    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/physicalisticEMMO_5b2222df_4da6_442f_8244_96e9e45887d1"/>
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_5b2222df_4da6_442f_8244_96e9e45887d1"/>
     <owl:disjointUnionOf>
       <rdf:Description>
-        <rdf:first rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a"/>
+        <rdf:first rdf:resource="http://emmo.info/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a"/>
         <rdf:rest>
           <rdf:Description>
             <rdf:first rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_df96cbb6_b5ee_4222_8eab_b3675df24bea"/>
@@ -190,11 +186,11 @@ The class Material hosts the subclasses for which a substance can be identified 
   </owl:Class>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf">
-    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527"/>
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527"/>
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
         <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -221,7 +217,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
         <owl:hasValue>H</owl:hasValue>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -240,12 +236,12 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <skos:prefLabel xml:lang="en">OrganicCompound</skos:prefLabel>
   </owl:Class>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/isql#EMMO_7c055d65_2929_40e1_af4f_4bf10995ad50">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_7c055d65_2929_40e1_af4f_4bf10995ad50">
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb"/>
   </rdf:Description>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_7efd64d1_05a1_49cd_a7f0_783ca050d4f3">
-    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"/>
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"/>
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e"/>
     <owl:disjointUnionOf>
       <rdf:Description>
@@ -259,7 +255,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
                   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_90963312_d9a9_4474_8d10_835aef5b168e">
                     <rdfs:subClassOf>
                       <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+                        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
                         <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_172e2c96_180b_40f8_a3e7_b624471f40c2"/>
                       </owl:Restriction>
                     </rdfs:subClassOf>
@@ -286,7 +282,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
         <owl:hasValue>U</owl:hasValue>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -298,7 +294,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_23b579e1_8088_45b5_9975_064014026c42"/>
         <owl:hasValue>Ar</owl:hasValue>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -307,7 +303,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
   </owl:Class>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_8a41ed1b_64f9_4be7_9b60_01fcece45075">
-    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/physicalisticEMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_4207e895_8b83_4318_996a_72cfb32acd94"/>
     <skos:prefLabel xml:lang="en">ChemicalMaterial</skos:prefLabel>
   </owl:Class>
 
@@ -320,7 +316,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e"/>
     <rdfs:subClassOf>
       <owl:Restriction>
-        <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/reductionistic#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
+        <owl:onProperty rdf:resource="http://emmo.info/emmo#EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe"/>
         <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_4f40def1_3cd7_4067_9596_541e9a5134cf"/>
       </owl:Restriction>
     </rdfs:subClassOf>
@@ -331,7 +327,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
   </owl:Class>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_9fa966c7_5231_409e_841f_b4c5fd33732a">
-    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/materials#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a"/>
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_21205421_5783_4d3e_81e5_10c5d894a88a"/>
     <skos:prefLabel xml:lang="en">PolyatomicEntity</skos:prefLabel>
   </owl:Class>
 
@@ -347,11 +343,16 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="http://emmo.info/emmo/middle/metrology#EMMO_daf05011_df3f_44a0_bb31_f8d565d7a854">
+      <owl:Class rdf:about="http://emmo.info/emmo#EMMO_daf05011_df3f_44a0_bb31_f8d565d7a854">
       </owl:Class>
     </rdfs:subClassOf>
 
     <skos:prefLabel xml:lang="en">ChemicalCompositionQuantity</skos:prefLabel>
+  </owl:Class>
+
+  <owl:Class rdf:about="http://emmo.info/emmo#EMMO_daf05011_df3f_44a0_bb31_f8d565d7a854">
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_79751276_b2d0_4e2f_bbd4_99d412f43d55"/>
+    <skos:prefLabel xml:lang="en">PhysicoChemical</skos:prefLabel>
   </owl:Class>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_a466b60b_d973_4b8f_897f_d0b837a59df3">
@@ -359,7 +360,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
       <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_ecc4efe9_77a2_47e3_8190_f9a883d54ac6">
         <rdfs:subClassOf>
           <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_eb7de1a1_c30e_4f0d_94c6_fe70414d7e61">
-            <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_c74da218_9147_4f03_92d1_8894abca55f3"/>
+            <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_c74da218_9147_4f03_92d1_8894abca55f3"/>
             <ns0:elucidation>A graphical object aimed to represent schematically the conceptual, tempral or spatial structure of another object.</ns0:elucidation>
             <skos:prefLabel xml:lang="en">Representation</skos:prefLabel>
           </owl:Class>
@@ -374,12 +375,12 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <skos:prefLabel xml:lang="en">StructuralFormula</skos:prefLabel>
   </owl:Class>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/isq#EMMO_a8eb87b5_4d10_4137_a75c_e04ee59ca095">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_a8eb87b5_4d10_4137_a75c_e04ee59ca095">
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb"/>
   </rdf:Description>
 
   <owl:Class rdf:about="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e">
-    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"/>
+    <rdfs:subClassOf rdf:resource="http://emmo.info/emmo#EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8"/>
     <ns0:elucidation>A language object that follows the syntactic rules used in the chemical field.</ns0:elucidation>
     <skos:prefLabel xml:lang="en">Chemical</skos:prefLabel>
   </owl:Class>
@@ -389,7 +390,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
       <owl:Class>
         <owl:intersectionOf>
           <rdf:Description>
-            <rdf:first rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"/>
+            <rdf:first rdf:resource="http://emmo.info/emmo#EMMO_89a0c87c_0804_4013_937a_6fe234d9499c"/>
             <rdf:rest>
               <rdf:Description>
                 <rdf:first rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e"/>
@@ -424,7 +425,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
       <owl:Class>
         <owl:intersectionOf>
           <rdf:Description>
-            <rdf:first rdf:resource="http://emmo.info/emmo/middle/perceptual#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527"/>
+            <rdf:first rdf:resource="http://emmo.info/emmo#EMMO_a1083d0a_c1fb_471f_8e20_a98f881ad527"/>
             <rdf:rest>
               <rdf:Description>
                 <rdf:first rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_abf7efbe_6b04_41b8_8326_4dd0f6be753e"/>
@@ -441,7 +442,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <skos:prefLabel xml:lang="en">ChemicalSymbol</skos:prefLabel>
   </owl:Class>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/isq#EMMO_d5be1faf_0c56_4f5a_9b78_581e6dee949f">
+  <rdf:Description rdf:about="http://emmo.info/emmo#EMMO_d5be1faf_0c56_4f5a_9b78_581e6dee949f">
     <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/chemistry#EMMO_a293f923_954c_4af5_9f97_9600ebd362cb"/>
   </rdf:Description>
 
@@ -478,7 +479,7 @@ This qualifies a chemical element as a name and not a matter obejct that can sta
     <skos:prefLabel xml:lang="en">ChemicalCompound</skos:prefLabel>
   </owl:Class>
 
-  <rdf:Description rdf:about="http://emmo.info/emmo/middle/materials#EMMO_eb77076b_a104_42ac_a065_798b2d2809ad">
+  <rdf:Description rdf:about="http://emmo.info/emmos#EMMO_eb77076b_a104_42ac_a065_798b2d2809ad">
     <skos:altLabel>ChemicalElement</skos:altLabel>
   </rdf:Description>
 
