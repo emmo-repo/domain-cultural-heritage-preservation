@@ -1,0 +1,19 @@
+image: "python:3.7"
+
+before_script:
+  - python --version
+  - git submodule update --init
+  - pip install EMMO
+
+stages:
+  - Check against EMMO conventions
+
+emmocheck:
+  stage: Check against EMMO conventions
+  script:
+  # NOTES:
+  # * Replace myontology.owl with your ontology.
+  # * In case you use git submodules for dependencies you can add the --local
+  #   option to emmocheck to also check that your catalog-v001.xml file is
+  #   correctly set up.  This will also make your tests run faster.
+  - emmocheck myontology.owl --verbose
